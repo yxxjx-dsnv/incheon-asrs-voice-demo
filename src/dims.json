@@ -1,0 +1,56 @@
+{
+  "_note": "metres; robot frame X = long axis, Y = short axis, Z = up (Blender). three.js: Y up, Z = -Y_blender. Single source of truth for tools/robot/build_robot.py and src/components/asrsRobot.ts.",
+  "body": {
+    "length": 0.4906,
+    "width": 0.332,
+    "floor_z": 0.003,
+    "top_z": 0.0483,
+    "bay_x": 0.167,
+    "bay_y": 0.12
+  },
+  "wheel": {
+    "radius": 0.03,
+    "width": 0.046,
+    "x": 0.205,
+    "y": 0.148,
+    "rollers": 10
+  },
+  "deck": {
+    "plate_bottom_z": 0.0475,
+    "plate_top_z": 0.0495,
+    "stroke": 0.08,
+    "bore_r": 0.065,
+    "long_half": 0.2288,
+    "short_half": 0.166
+  },
+  "gripper": {
+    "blade_bottom_z": 0.0455,
+    "lip_top_z": 0.0695,
+    "width": 0.08,
+    "hub_angle_closed_deg": 110,
+    "hub_angle_open_deg": 15,
+    "long": {
+      "tip": 0.2288,
+      "pin_closed": 0.076,
+      "stroke": 0.104,
+      "crank_r": 0.0666,
+      "link_l": 0.1169
+    },
+    "short": {
+      "tip": 0.166,
+      "pin_closed": 0.076,
+      "stroke": 0.061,
+      "crank_r": 0.041,
+      "link_l": 0.098
+    }
+  },
+  "scissor": {
+    "bar_length": 0.33,
+    "bar_height": 0.012,
+    "bar_thick": 0.003,
+    "pivot_x": -0.16,
+    "plane_y": 0.1,
+    "body_pivot_z": 0.01,
+    "deck_pivot_z": 0.035
+  }
+}

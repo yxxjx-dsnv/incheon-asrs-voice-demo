@@ -13,7 +13,7 @@ body {
 .asrs-stage { position: fixed; inset: 0; margin: 0; background: #000; }
 .asrs-mount { position: relative; width: 100%; height: 100vh; background: #141414; overflow: hidden; }
 .asrs-mount canvas { display: block; touch-action: none; }
-.model-status { position: absolute; inset: 0; display: grid; place-items: center; font-size: 13px; color: #9a9a9a; }
+.model-status { position: absolute; inset: 0; display: grid; place-items: center; font-size: 13px; color: #9a9a9a; pointer-events: none; }
 
 .asrs-hud {
     position: absolute;
